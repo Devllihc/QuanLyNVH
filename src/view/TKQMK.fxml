@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.TKQMKControl">
+   <children>
+      <AnchorPane prefHeight="471.0" prefWidth="539.0">
+         <children>
+            <Button layoutX="120.0" layoutY="349.0" mnemonicParsing="false" onAction="#secQues" text="hiện câu hỏi" />
+            <Label layoutX="61.0" layoutY="156.0" text="Tên đăng nhập" />
+            <Label layoutX="182.0" layoutY="55.0" text="Ứng dụng quản lí nhà văn hóa" />
+            <TextField fx:id="accountname" layoutX="201.0" layoutY="152.0" prefHeight="25.0" prefWidth="211.0" />
+            <Label fx:id="secques" layoutX="201.0" layoutY="199.0" text="câu hỏi bảo mật" />
+            <Label layoutX="61.0" layoutY="236.0" text="Câu trả lời" />
+            <TextField fx:id="answer" layoutX="201.0" layoutY="232.0" prefHeight="25.0" prefWidth="211.0" />
+            <Button layoutX="326.0" layoutY="349.0" mnemonicParsing="false" onAction="#takePassword" text="lấy lại mật khẩu" />
+            <Label layoutX="61.0" layoutY="284.0" text="Mật khẩu mới" />
+            <TextField fx:id="newpassword" layoutX="201.0" layoutY="280.0" prefHeight="25.0" prefWidth="211.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

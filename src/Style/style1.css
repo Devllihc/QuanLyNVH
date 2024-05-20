@@ -1,0 +1,48 @@
+
+
+.root{
+	-fx-background-color: linear-gradient(to bottom, #ffff00, #2ecc71);
+	-fx-background-image : url("/image/ionia.png"),url("/image/lua.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position :top left, center bottom;
+	-fx-background-size : 10% auto , auto;
+	fx-opacity: 0.7;
+}
+
+.button{
+	-fx-background-color: #3498db;
+	-fx-background-radius: 30px;
+	-fx-alignment: center;
+	-fx-border-insets: 15px;
+}
+.button:hover {
+	
+	-fx-background-radius: 30px;
+	-fx-background-color: #1affa3 ;
+	-fx-alignment: center;
+}
+#titleLabel{
+	
+	-fx-font-size: 30px;
+	-fx-alignment: center;
+}
+.vBox{
+	-fx-spacing: 10px;
+}
+.text-field{
+	-fx-background-color:#caedeb;
+	-fx-background-radius: 10px;
+}
+.table-view{
+	-fx-background-color:#9ed7db;
+	
+}
+.table-row-cell{
+	-fx-control-inner-background:#9ed7db;
+}
+.table-view .column-header .label:odd{
+	-fx-control-inner-background: #e7f7c3;
+}
+.table-view .column-header .label:even{
+	-fx-control-inner-background: #d4f5c9;
+}
